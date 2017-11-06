@@ -172,9 +172,9 @@ $(function(){
 		images.forEach(function(image){
 			var pick_image = document.createElement("img");
 			pick_image.src = image;
-			pick_image.height = 64;
-			pick_image.width = 64;
-			pick_image.border = 1;
+			pick_image.style.height = "64px";
+			pick_image.style.width = "64px";
+			pick_image.style.border = "black 1px solid";
 			pick_image.onclick = function(){
 				change_image(image);
 			};
